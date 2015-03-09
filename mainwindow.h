@@ -16,8 +16,14 @@ public:
     ~MainWindow();
 
 private slots:
+    void on_actionFromToday_triggered();
+    void on_actionFromTextChanged_triggered();
+    void on_actionToToday_triggered();
+    void on_actionToTextChanged_triggered();
     void on_actionQuit_triggered();
-    void on_calculateButton_clicked();
+    void on_actionUpdateAnswer_triggered();
+
+    void on_fromLineEdit_cursorPositionChanged(int arg1, int arg2);
 
 private:
     Ui::MainWindow *ui;
