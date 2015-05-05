@@ -37,8 +37,7 @@ void MainWindow::on_actionFromToday_triggered() {
 }
 
 void MainWindow::on_fromLineEdit_cursorPositionChanged(int oldP, int newP) {
-    Q_UNUSED(oldP);
-    if (newP == 10) {
+    if (oldP == 9 && newP == 10) {
         ui->toLineEdit->setFocus();
     }
 }
