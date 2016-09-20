@@ -1,1 +1,7 @@
+DateCalculator
+*.o
+Makefile
 DateCalculator.pro.user
+.qmake.stash
+moc*
+ui*

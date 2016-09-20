@@ -12,9 +12,9 @@ TARGET = DateCalculator
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES  += src/main.cpp\
+			src/mainwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += include/mainwindow.hpp
 
-FORMS    += mainwindow.ui
+FORMS    += forms/mainwindow.ui
